@@ -21,6 +21,13 @@ and can manage positions automatically.
 - No key yet? The app gives a **1-day free trial** automatically on first run.
 - If you **reinstall / move your MT5 folder** and the app asks to activate again, contact **support** to **reset** the key (remaining time is kept).
 
+> ⚠️ **Risk warning:** There is no 100% profit guarantee. Trading forex/gold is
+> high-risk and can lead to losses. Only use **money you can afford to lose** —
+> never essential funds or borrowed money. This app is a **tool, not a profit
+> guarantee**; every decision and its risk is entirely your responsibility.
+> **Test on a demo account first**, size your capital wisely, and use sensible
+> risk management.
+
 ---
 
 ## 2. Connecting to MetaTrader 5
