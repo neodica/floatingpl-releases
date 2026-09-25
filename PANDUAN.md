@@ -4,7 +4,8 @@
 menampilkan profit/loss berjalan (floating P/L) semua posisi sekaligus, harga,
 equity, dan bisa mengelola posisi secara otomatis.
 
-> Butuh bantuan? **For support: neo_dica@yahoo.co.id**
+> **Aktivasi / beli kode:** ndr_dc@yahoo.com
+> **Dukungan (support):** neo_dica@yahoo.co.id
 
 ---
 
@@ -95,8 +96,7 @@ Update tidak pernah otomatis tanpa persetujuan Anda.
 
 ---
 
-## 10. Dukungan
+## 10. Kontak
 
-Ada kendala atau pertanyaan? Hubungi:
-
-**neo_dica@yahoo.co.id**
+- **Aktivasi / beli kode:** ndr_dc@yahoo.com
+- **Dukungan (kendala/pertanyaan):** neo_dica@yahoo.co.id
