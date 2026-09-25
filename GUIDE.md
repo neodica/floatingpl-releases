@@ -18,7 +18,7 @@ and can manage positions automatically.
 **Important:**
 - **1 key = 1 app** (1 MT5 terminal/account). To monitor **several MT5 accounts**, you need **several keys** (1 account = 1 key).
 - **Cannot move between PCs.** Once activated, a key is locked to that PC; the same key cannot be used on another PC.
-- No key yet? The app gives a **1-day free trial** automatically on first run.
+- **Not activated yet?** The app still **opens** (you can look around) but is **locked** — trading features won't run until you enter a key. Activate via **right-click → Activate now**.
 - If you **reinstall / move your MT5 folder** and the app asks to activate again, contact **support** to **reset** the key (remaining time is kept).
 
 > ⚠️ **Risk warning:** There is no 100% profit guarantee. Trading forex/gold is
@@ -53,11 +53,11 @@ If the widget shows "⚠ MT5 not connected", open/log in to MT5 and wait a few s
 ## 4. Buttons & Menu
 
 - **Move the widget:** hold left-click and drag.
-- **AUTO** (title): master switch for all automatic features (all ON/OFF at once).
+- **AUTO** (title): master switch — one click **turns ALL automatic features ON/OFF at once** (Auto Entry, Auto SL+, Auto Correction, Auto Partial, Auto CutLoss). Green = all ON. **Default OFF on startup** — turn on manually.
+- **Session buttons ASIA | LONDON | US:** choose when the bot may trade (green = active). **All ON by default = 24 hours.** Turn one off to stop trading during that session.
 - **Algo ON/OFF:** MT5 AutoTrading status (Ctrl+E).
-- **+ / − :** enlarge / shrink / collapse the panel.
-- **× :** close the widget.
-- **Right-click** opens the menu: change pair, SL+ now, **Check update**, **About / Version**, etc.
+- **+ / − :** enlarge / shrink / collapse the panel. **× :** close the widget.
+- **Right-click** opens the menu: **activation status** (✓ Activated / 🔒 Activate now), change pair, SL+ now, **Check update**, **About / Version**, **User Guide**, change language.
 
 ---
 
@@ -65,20 +65,23 @@ If the widget shows "⚠ MT5 not connected", open/log in to MT5 and wait a few s
 
 | Feature | What it does |
 |---|---|
-| **Auto Entry** | Opens a recovery entry when floating is negative (max 1 active, with a cooldown). |
-| **Auto Correction** | Counter-trend scalping (max 3), exits via Auto SL+. |
+| **Auto Entry** | Enters on a **signal** (EMA trend + crossover/pullback + confluence + RSI gate). Max **1** Auto Entry position. |
+| **Auto Correction** | Enters **WITH the trend** on a pullback (RSI reversal). Brake: max **2** same-direction positions while still losing. |
+| **Reversal Scalp** | On a **trend reversal**, opens 1 position with the new trend and a **small fixed TP** (±250 points ≈ $2.5 on XAUUSD) for a quick profit. |
 | **Auto SL+** | Trailing: locks in profit on positions already in the green. |
+| **Auto Partial** | Scales out (closes part) as floating rises step by step. |
 | **Auto CutLoss** | Closes all positions once the loss reaches the set percentage. |
 | **Break-even Rescue** | When you already have 2+ losing positions and price reverses, it automatically closes everything at break-even (0) — no Stop Loss needed. |
 
-All features only run while **MT5 AutoTrading is ON**.
+- All features only run while **MT5 AutoTrading is ON** (Ctrl+E) **and** the app is **activated**.
+- The bot only enters during **active sessions** (ASIA/LONDON/US buttons).
 
 ---
 
-## 6. Changing the Pair
+## 6. Changing the Pair & Lot
 
-Right-click → choose a pair (e.g. XAUUSD, EURUSD, BTCUSD) → confirm.
-Lot size adjusts automatically to the selected pair.
+- Right-click → choose a pair (e.g. XAUUSD, EURUSD, BTCUSD) → confirm.
+- **Auto lot:** normal accounts → broker minimum (0.01); **CENT accounts** → default **0.10**. You can change it manually anytime (your typed value is respected).
 
 ---
 
