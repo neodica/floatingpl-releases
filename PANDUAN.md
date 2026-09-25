@@ -9,16 +9,17 @@ equity, dan bisa mengelola posisi secara otomatis.
 
 ---
 
-## 1. Aktivasi (sekali saja per PC)
+## 1. Aktivasi
 
 1. Jalankan **FloatingPL.exe**.
 2. Pada layar aktivasi, masukkan **kode lisensi** yang Anda terima → klik **Aktifkan**.
-3. Setelah berhasil, widget langsung terbuka. Aktivasi tidak perlu diulang di PC yang sama.
+3. Setelah berhasil, widget langsung terbuka. Aktivasi tidak perlu diulang untuk aplikasi yang sama.
 
 **Catatan penting:**
-- **1 kode = 1 PC.** Kode yang sudah dipakai di satu PC tidak bisa dipakai di PC lain.
-- Di **satu PC**, satu kode boleh menjalankan **banyak widget** (untuk beberapa akun MT5) sekaligus.
+- **1 kode = 1 aplikasi** (1 terminal/akun MT5). Untuk memantau **beberapa akun MT5**, Anda butuh **beberapa kode** (1 akun = 1 kode).
+- **Tidak bisa pindah PC.** Kode yang sudah diaktivasi terkunci ke PC tersebut; kode yang sama tidak bisa dipakai di PC lain.
 - Belum punya kode? Aplikasi memberi **masa coba (trial) 1 hari** otomatis saat pertama dijalankan.
+- Jika Anda **install ulang / pindah folder MT5** dan aplikasi meminta aktivasi lagi, hubungi **support** untuk **reset** kode (masa aktif tetap).
 
 ---
 
@@ -76,7 +77,7 @@ Ukuran lot otomatis menyesuaikan karakter pair yang dipilih.
 
 ## 7. Beberapa Akun / Banyak MT5 dalam 1 PC
 
-- Satu PC boleh menjalankan **beberapa widget** (satu per terminal MT5), memakai kode yang sama.
+- Anda bisa memantau **beberapa akun MT5** sekaligus di satu PC dengan menjalankan **beberapa widget** — **masing-masing memakai kodenya sendiri** (1 akun/terminal = 1 kode).
 - **Jangan menjalankan beberapa widget secara bersamaan** — beri **jeda ±10 detik** antar widget, agar tiap widget sempat tersambung ke MT5-nya (kalau berbarengan, salah satu bisa gagal konek).
 - Disarankan memakai **launcher berjeda** (file .vbs) agar otomatis.
 
@@ -91,8 +92,9 @@ Update tidak pernah otomatis tanpa persetujuan Anda.
 
 ## 9. Keamanan Lisensi
 
-- Simpan kode Anda; **1 kode hanya untuk 1 PC**.
-- Jangan menyebarkan kode — kode yang sudah aktif di PC lain akan ditolak.
+- **1 kode = 1 aplikasi** dan **terkunci ke 1 PC**. Menggandakan file .exe **tidak** menambah lisensi.
+- Jangan menyebarkan kode — kode yang sudah aktif akan ditolak bila dipakai di aplikasi/PC lain.
+- Pindah PC atau install ulang MT5? Hubungi **support** untuk **reset** ikatan (sisa masa aktif tetap).
 
 ---
 
