@@ -21,6 +21,13 @@ equity, dan bisa mengelola posisi secara otomatis.
 - Belum punya kode? Aplikasi memberi **masa coba (trial) 1 hari** otomatis saat pertama dijalankan.
 - Jika Anda **install ulang / pindah folder MT5** dan aplikasi meminta aktivasi lagi, hubungi **support** untuk **reset** kode (masa aktif tetap).
 
+> ⚠️ **Peringatan risiko:** Tidak ada jaminan 100% untung. Trading forex/emas
+> berisiko tinggi dan bisa menyebabkan kerugian. Gunakan **hanya dana yang siap
+> Anda relakan** — jangan uang kebutuhan sehari-hari atau uang pinjaman. Aplikasi
+> ini adalah **alat bantu, bukan jaminan profit**; setiap keputusan dan risikonya
+> sepenuhnya menjadi tanggung jawab Anda. **Uji di akun demo dulu**, atur modal
+> dengan bijak, dan gunakan manajemen risiko yang wajar.
+
 ---
 
 ## 2. Menghubungkan ke MetaTrader 5
