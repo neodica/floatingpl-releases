@@ -4,7 +4,8 @@
 running profit/loss (floating P/L) of all your positions at once, prices, equity,
 and can manage positions automatically.
 
-> Need help? **For support: neo_dica@yahoo.co.id**
+> **Activation / buy a code:** ndr_dc@yahoo.com
+> **Support:** neo_dica@yahoo.co.id
 
 ---
 
@@ -95,8 +96,7 @@ Updates never happen automatically without your approval.
 
 ---
 
-## 10. Support
+## 10. Contact
 
-Questions or issues? Contact:
-
-**neo_dica@yahoo.co.id**
+- **Activation / buy a code:** ndr_dc@yahoo.com
+- **Support (issues/questions):** neo_dica@yahoo.co.id
