@@ -9,16 +9,17 @@ and can manage positions automatically.
 
 ---
 
-## 1. Activation (once per PC)
+## 1. Activation
 
 1. Run **FloatingPL.exe**.
 2. On the activation screen, enter the **license key** you received → click **Activate**.
-3. Once activated, the widget opens. You won't need to activate again on the same PC.
+3. Once activated, the widget opens. You won't need to activate the same app again.
 
 **Important:**
-- **1 key = 1 PC.** A key already used on one PC cannot be used on another.
-- On **one PC**, a single key can run **multiple widgets** (for several MT5 accounts) at once.
+- **1 key = 1 app** (1 MT5 terminal/account). To monitor **several MT5 accounts**, you need **several keys** (1 account = 1 key).
+- **Cannot move between PCs.** Once activated, a key is locked to that PC; the same key cannot be used on another PC.
 - No key yet? The app gives a **1-day free trial** automatically on first run.
+- If you **reinstall / move your MT5 folder** and the app asks to activate again, contact **support** to **reset** the key (remaining time is kept).
 
 ---
 
@@ -76,7 +77,7 @@ Lot size adjusts automatically to the selected pair.
 
 ## 7. Multiple Accounts / Several MT5 on One PC
 
-- One PC can run **several widgets** (one per MT5 terminal) using the same key.
+- You can monitor **several MT5 accounts** on one PC by running **several widgets** — **each one uses its own key** (1 account/terminal = 1 key).
 - **Do not start several widgets at the same time** — leave a **~10 second gap** between them, so each widget can connect to its own MT5 (starting together can make one fail to connect).
 - A **staggered launcher** (.vbs file) is recommended to do this automatically.
 
@@ -91,8 +92,9 @@ Updates never happen automatically without your approval.
 
 ## 9. License Security
 
-- Keep your key safe; **1 key is for 1 PC only**.
-- Do not share your key — a key already active on another PC will be rejected.
+- **1 key = 1 app** and **locked to 1 PC**. Copying the .exe does **not** grant extra licenses.
+- Do not share your key — a key already active will be rejected if used on another app/PC.
+- Moving PC or reinstalling MT5? Contact **support** to **reset** the binding (remaining time is kept).
 
 ---
 
