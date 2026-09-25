@@ -18,7 +18,7 @@ equity, dan bisa mengelola posisi secara otomatis.
 **Catatan penting:**
 - **1 kode = 1 aplikasi** (1 terminal/akun MT5). Untuk memantau **beberapa akun MT5**, Anda butuh **beberapa kode** (1 akun = 1 kode).
 - **Tidak bisa pindah PC.** Kode yang sudah diaktivasi terkunci ke PC tersebut; kode yang sama tidak bisa dipakai di PC lain.
-- Belum punya kode? Aplikasi memberi **masa coba (trial) 1 hari** otomatis saat pertama dijalankan.
+- **Belum aktivasi?** Aplikasi tetap **terbuka** (Anda bisa lihat tampilannya), tapi **terkunci** — fitur trading tidak jalan sampai kode dimasukkan. Aktivasi lewat **klik kanan → Aktivasi sekarang**.
 - Jika Anda **install ulang / pindah folder MT5** dan aplikasi meminta aktivasi lagi, hubungi **support** untuk **reset** kode (masa aktif tetap).
 
 > ⚠️ **Peringatan risiko:** Tidak ada jaminan 100% untung. Trading forex/emas
@@ -53,11 +53,11 @@ Jika widget menampilkan "⚠ MT5 tidak terhubung", buka/login MT5 lalu tunggu be
 ## 4. Tombol & Menu
 
 - **Geser widget:** tahan klik kiri lalu seret.
-- **AUTO** (judul): master switch semua fitur otomatis (ON/OFF sekaligus).
+- **AUTO** (judul): saklar induk — sekali klik **menyalakan/mematikan SEMUA fitur otomatis sekaligus** (Auto Entry, Auto SL+, Auto Koreksi, Auto Partial, Auto CutLoss). Hijau = semua ON. **Default OFF saat aplikasi dibuka** — nyalakan manual.
+- **Tombol sesi ASIA | LONDON | US:** pilih jam bot boleh trading (hijau = aktif). **Default ON semua = 24 jam.** Matikan salah satu kalau tak mau bot trading di jam sesi itu.
 - **Algo ON/OFF:** status AutoTrading MT5 (Ctrl+E).
-- **+ / − :** perbesar / perkecil / ciutkan panel.
-- **× :** tutup widget.
-- **Klik kanan** membuka menu: ganti pair, SL+ sekarang, **Cek update**, **About / Versi**, dll.
+- **+ / − :** perbesar / perkecil / ciutkan panel. **× :** tutup widget.
+- **Klik kanan** membuka menu: **status aktivasi** (✓ Teraktivasi / 🔒 Aktivasi sekarang), ganti pair, SL+ sekarang, **Cek update**, **About / Versi**, **Cara pakai**, ganti Bahasa.
 
 ---
 
@@ -65,20 +65,23 @@ Jika widget menampilkan "⚠ MT5 tidak terhubung", buka/login MT5 lalu tunggu be
 
 | Fitur | Fungsi |
 |---|---|
-| **Auto Entry** | Membuka entry pemulihan saat floating minus (maks 1 aktif, ada jeda/cooldown). |
-| **Auto Koreksi** | Scalping koreksi melawan tren (maks 3), keluar lewat Auto SL+. |
+| **Auto Entry** | Entry mengikuti **sinyal** (tren EMA + crossover/pullback + konfluensi + gerbang RSI). Maks **1** posisi Auto Entry. |
+| **Auto Koreksi** | Entry **SEARAH tren** saat ada pullback (RSI berbalik). Rem: maks **2** posisi searah selama masih minus (biar tak makin dalam). |
+| **Scalp Pembalikan** | Saat tren **berbalik**, buka 1 posisi searah tren baru dengan **TP kecil tetap** (±250 poin ≈ $2.5 di XAUUSD) → ambil untung cepat. |
 | **Auto SL+** | Trailing: mengunci profit posisi yang sudah untung. |
+| **Auto Partial** | Tutup sebagian (scale-out) tiap floating naik bertahap. |
 | **Auto CutLoss** | Menutup semua posisi bila rugi mencapai persentase yang diatur. |
 | **Break-even Rescue** | Bila sudah 2+ posisi minus lalu harga berbalik, otomatis menutup semua saat kembali impas (0) — tanpa perlu Stop Loss. |
 
-Semua fitur hanya berjalan jika **AutoTrading MT5 ON**.
+- Semua fitur hanya berjalan jika **AutoTrading MT5 ON** (Ctrl+E) **dan** aplikasi **sudah aktivasi**.
+- Bot hanya entry pada **sesi yang aktif** (tombol ASIA/LONDON/US).
 
 ---
 
-## 6. Ganti Pair
+## 6. Ganti Pair & Lot
 
-Klik kanan → pilih pair (mis. XAUUSD, EURUSD, BTCUSD) → konfirmasi.
-Ukuran lot otomatis menyesuaikan karakter pair yang dipilih.
+- Klik kanan → pilih pair (mis. XAUUSD, EURUSD, BTCUSD) → konfirmasi.
+- **Lot otomatis:** akun biasa → lot minimum broker (0.01); **akun CENT** → default **0.10**. Bisa Anda ubah manual kapan saja (nilai yang Anda ketik dihormati).
 
 ---
 
