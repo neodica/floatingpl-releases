@@ -78,14 +78,34 @@ If the widget shows "⚠ MT5 not connected", open/log in to MT5 and wait a few s
 
 ---
 
-## 6. Changing the Pair & Lot
+## 6. Single Entry Mode (+ Smart Hedge)
+
+An alternative to Auto Entry/basket. Turn it on via **right-click → ⚙ Settings → "🎯 Single Entry : ON"**, then pick a TF (default **M1**). While ON, basket mode is off (exclusive). Best if you want **clear per-position risk** and **no stacking of positions**.
+
+**How it enters (sideways-aware):**
+- Direction comes from **price momentum**, then filtered by market regime:
+  - **Sideways** → *fade* the extremes (at the top take **SELL**, at the bottom take **BUY**).
+  - **Trending** → **follow the trend**, but enter on a **pullback** (never chase the top/bottom).
+- **Momentum + RSI + cooldown** filters → no back-to-back entries in choppy markets.
+- Max **1 position per direction**. It may hold **BUY & SELL together (hedge)**, but the opposite leg **only opens once the first position is already in profit** → no floating both ways / no *hedge-lock*.
+
+**How it exits (NO TP — let winners run):**
+- **SL** is placed fairly **far (±55 pips)** → not easily swept by noise.
+- **Break-even:** once profit reaches **~+20 pips**, the SL moves near entry → a trade that's already green can't turn into a big loss.
+- **ADAPTIVE SL+ trailing:** the trailing distance **follows volatility (ATR)** and **anchors to the swing structure** of recent candles. This means a **retest/pullback that hasn't broken structure will NOT sweep** the position; the SL only moves on **candle close** (anti-wick) and is **paused during large impulse candles** (gives it room to breathe).
+
+> ⚠️ The sideways filter **reduces** losses in flat markets, it does **not** remove them. It works best in **trending** markets. Always **test on demo** first.
+
+---
+
+## 7. Changing the Pair & Lot
 
 - Right-click → choose a pair (e.g. XAUUSD, EURUSD, BTCUSD) → confirm.
 - **Auto lot:** normal accounts → broker minimum (0.01); **CENT accounts** → default **0.10**. You can change it manually anytime (your typed value is respected).
 
 ---
 
-## 7. Multiple Accounts / Several MT5 on One PC
+## 8. Multiple Accounts / Several MT5 on One PC
 
 - You can monitor **several MT5 accounts** on one PC by running **several widgets** — **each one uses its own key** (1 account/terminal = 1 key).
 - **Do not start several widgets at the same time** — leave a **~10 second gap** between them, so each widget can connect to its own MT5 (starting together can make one fail to connect).
@@ -93,14 +113,14 @@ If the widget shows "⚠ MT5 not connected", open/log in to MT5 and wait a few s
 
 ---
 
-## 8. Updating the App
+## 9. Updating the App
 
 Right-click → **Check update**. If a new version exists, the app downloads it and restarts itself.
 Updates never happen automatically without your approval.
 
 ---
 
-## 9. License Security
+## 10. License Security
 
 - **1 key = 1 app** and **locked to 1 PC**. Copying the .exe does **not** grant extra licenses.
 - Do not share your key — a key already active will be rejected if used on another app/PC.
@@ -108,7 +128,7 @@ Updates never happen automatically without your approval.
 
 ---
 
-## 10. Contact
+## 11. Contact
 
 - **Activation / buy a code:** ndr_dc@yahoo.com
 - **Support (issues/questions):** neo_dica@yahoo.co.id
