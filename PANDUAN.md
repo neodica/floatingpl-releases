@@ -78,14 +78,34 @@ Jika widget menampilkan "⚠ MT5 tidak terhubung", buka/login MT5 lalu tunggu be
 
 ---
 
-## 6. Ganti Pair & Lot
+## 6. Mode Single Entry (+ Hedge Pintar)
+
+Mode alternatif selain Auto Entry/basket. Nyalakan lewat **klik kanan → ⚙ Pengaturan → "🎯 Single Entry : ON"** lalu pilih TF (default **M1**). Saat ON, mode basket mati (eksklusif). Cocok kalau Anda ingin **risiko jelas per posisi** dan **tak suka posisi menumpuk**.
+
+**Cara entry (sudah anti-sideways):**
+- Arah diambil dari **momentum harga**, lalu disaring kondisi pasar:
+  - **Sideways** → *fade* ekstrem (di pucuk ambil **SELL**, di dasar ambil **BUY**).
+  - **Tren** → **ikut arah**, tapi masuk saat **pullback** (tidak mengejar pucuk/dasar).
+- Filter **momentum + RSI + jeda (cooldown)** → tidak entry beruntun saat pasar choppy.
+- Maksimal **1 posisi per arah**. Boleh menahan **BUY & SELL sekaligus (hedge)**, tapi leg lawan **hanya dibuka bila posisi awal SUDAH profit** → tidak mengambang dua arah / tidak *hedge-lock*.
+
+**Cara exit (TANPA TP — biar untung lari):**
+- **SL** dipasang agak **jauh (±55 pips)** → tidak gampang kesapu noise.
+- **Break-even:** begitu profit **~+20 pips**, SL pindah ke sekitar titik impas → trade yang sudah hijau tak bisa balik jadi rugi besar.
+- **Trailing SL+ ADAPTIF:** jarak trailing **mengikuti volatilitas (ATR)** dan **nyangkut di struktur swing** beberapa candle. Artinya **retest/pullback yang belum menembus struktur tidak akan menyapu** posisi; SL digeser hanya saat **candle close** (anti-wick), dan **ditunda saat candle impuls** besar (beri "napas").
+
+> ⚠️ Filter sideways **mengurangi** rugi di pasar datar, **bukan menghilangkannya**. Paling enak di pasar **trending**. Tetap **WAJIB uji di demo** dulu.
+
+---
+
+## 7. Ganti Pair & Lot
 
 - Klik kanan → pilih pair (mis. XAUUSD, EURUSD, BTCUSD) → konfirmasi.
 - **Lot otomatis:** akun biasa → lot minimum broker (0.01); **akun CENT** → default **0.10**. Bisa Anda ubah manual kapan saja (nilai yang Anda ketik dihormati).
 
 ---
 
-## 7. Beberapa Akun / Banyak MT5 dalam 1 PC
+## 8. Beberapa Akun / Banyak MT5 dalam 1 PC
 
 - Anda bisa memantau **beberapa akun MT5** sekaligus di satu PC dengan menjalankan **beberapa widget** — **masing-masing memakai kodenya sendiri** (1 akun/terminal = 1 kode).
 - **Jangan menjalankan beberapa widget secara bersamaan** — beri **jeda ±10 detik** antar widget, agar tiap widget sempat tersambung ke MT5-nya (kalau berbarengan, salah satu bisa gagal konek).
@@ -93,14 +113,14 @@ Jika widget menampilkan "⚠ MT5 tidak terhubung", buka/login MT5 lalu tunggu be
 
 ---
 
-## 8. Update Aplikasi
+## 9. Update Aplikasi
 
 Klik kanan → **Cek update**. Jika ada versi baru, aplikasi akan mengunduh dan me-restart sendiri.
 Update tidak pernah otomatis tanpa persetujuan Anda.
 
 ---
 
-## 9. Keamanan Lisensi
+## 10. Keamanan Lisensi
 
 - **1 kode = 1 aplikasi** dan **terkunci ke 1 PC**. Menggandakan file .exe **tidak** menambah lisensi.
 - Jangan menyebarkan kode — kode yang sudah aktif akan ditolak bila dipakai di aplikasi/PC lain.
@@ -108,7 +128,7 @@ Update tidak pernah otomatis tanpa persetujuan Anda.
 
 ---
 
-## 10. Kontak
+## 11. Kontak
 
 - **Aktivasi / beli kode:** ndr_dc@yahoo.com
 - **Dukungan (kendala/pertanyaan):** neo_dica@yahoo.co.id
